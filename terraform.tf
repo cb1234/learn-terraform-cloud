@@ -1,13 +1,13 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "nirvanalabs"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "ckb-test"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
